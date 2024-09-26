@@ -35,10 +35,6 @@ def test_calculateReachedPercentage_exceptions(reached_points, possible_points, 
     with pytest.raises(expected_exception):
         calculateReachedPercentage(reached_points, possible_points)
 
-
-
-import pytest
-
 @pytest.mark.parametrize("percentage, expected_grade", [
     (100, 'sehr gut'),
     (92, 'sehr gut'),
