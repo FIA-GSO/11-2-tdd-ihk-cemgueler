@@ -1,0 +1,45 @@
+Index: 19.09.204/UnitTests.py
+IDEA additional info:
+Subsystem: com.intellij.openapi.diff.impl.patch.CharsetEP
+<+>UTF-8
+===================================================================
+diff --git a/19.09.204/UnitTests.py b/19.09.2024/UnitTests.py
+rename from 19.09.204/UnitTests.py
+rename to 19.09.2024/UnitTests.py
+--- a/19.09.204/UnitTests.py	(revision 95a45e23ab22fec72d4e9ea5ff33418150b03196)
++++ b/19.09.2024/UnitTests.py	(date 1727345630704)
+@@ -1,11 +1,10 @@
+ from my_functions import my_function, my_other_function
+ 
+-# Tests for my_function
+ def test_my_function_too_short():
+-    assert my_function("hi") == "too short"  # Adjusted the test to match the function output ('to short')
++    assert my_function("hi") == "too short"
+ 
+ def test_my_function_too_long():
+-    assert my_function("CemSamyGüler") == "too long"  # Adjusted the test to match the function output ('to long')
++    assert my_function("CemSamyGüler") == "too long"
+ 
+ def test_my_function_just_right():
+     assert my_function("abcdef") == "just right"
+@@ -15,15 +14,12 @@
+     assert my_other_function(True, True) == "one is true, two is true"
+ 
+ def test_my_other_function_one_true_two_false():
+-    # Expecting 'one is false, two is false' based on current function logic
+     assert my_other_function(True, False) == "one is false, two is false"
+ 
+ def test_my_other_function_both_false():
+-    # Expecting empty string because the function returns '' for both False
+     assert my_other_function(False, False) == ""
+ 
+ def test_my_other_function_one_false_two_true():
+-    # Expecting empty string because the function returns '' for this combination
+     assert my_other_function(False, True) == ""
+ 
+ 
+diff --git a/26.09.2024/UnitTests.py b/26.09.2024/UnitTests.py
+new file mode 100644
+diff --git a/19.09.204/my_functions.py b/19.09.2024/my_functions.py
+rename from 19.09.204/my_functions.py
+rename to 19.09.2024/my_functions.py
