@@ -1,5 +1,4 @@
 import pytest
-import unittest
 
 from Functions import calculateReachedPercentage, getGradeFromPercentage
 
