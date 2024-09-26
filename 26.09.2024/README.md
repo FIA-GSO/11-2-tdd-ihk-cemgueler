@@ -5,7 +5,7 @@ Ihnen liegt folgende UserStory vor:
 >2. den erreichten Prozentwert eingeben und die schriftliche Note (z.B. „sehr gut“) erhalten
 
 Setzen Sie die Anforderung um, indem Sie: 
-- eine Grenzwertanalyse [in dieser Datei](./Grenzwertanalyse.md) durchführen 
+- eine Grenzwertanalyse [in dieser Datei](Grenzwertanalyse.md) durchführen 
 - nach Test-Driven-Developement (TDD) arbeiten
 - das Arrange-Act-Assert-Muster (AAA) einhalten
 
